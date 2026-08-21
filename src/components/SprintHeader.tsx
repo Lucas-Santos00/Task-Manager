@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import type { Sprint, Task } from '@/lib/supabase'
 
-const MEMBERS = ['Ana', 'Bruno', 'Carla', 'Diego']
+const MEMBERS = ['Lucas', 'Felipe', 'Magno', 'Vitor']
 
 interface Props {
   activeSprint: Sprint | null
