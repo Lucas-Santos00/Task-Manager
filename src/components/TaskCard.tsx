@@ -10,10 +10,10 @@ const PRIORITY_LABELS: Record<Priority, { label: string; color: string }> = {
 }
 
 const MEMBER_COLORS: Record<string, { bg: string; text: string }> = {
-  Ana:   { bg: '#1E3A5F', text: '#60A5FA' },
-  Bruno: { bg: '#2D1B69', text: '#A78BFA' },
-  Carla: { bg: '#1A3D2B', text: '#4ADE80' },
-  Diego: { bg: '#4A1942', text: '#F0ABFC' },
+  Lucas:   { bg: '#1E3A5F', text: '#60A5FA' },
+  Felipe: { bg: '#2D1B69', text: '#A78BFA' },
+  Magno: { bg: '#1A3D2B', text: '#4ADE80' },
+  Vitor: { bg: '#4A1942', text: '#F0ABFC' },
 }
 
 interface Column { id: TaskStatus; label: string; color: string }
