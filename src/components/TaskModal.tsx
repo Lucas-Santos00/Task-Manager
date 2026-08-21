@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import type { Task, TaskStatus, Priority } from '@/lib/supabase'
 
-const MEMBERS = ['Ana', 'Bruno', 'Carla', 'Diego']
+const MEMBERS = ['Lucas', 'Felipe', 'Magno', 'Vitor']
 const STATUSES: { id: TaskStatus; label: string }[] = [
   { id: 'backlog', label: 'Backlog' },
   { id: 'in_progress', label: 'Em andamento' },
